@@ -48,6 +48,7 @@ end
 group :development, :test do
   gem 'sqlite3', '1.3.7'
   gem 'rspec-rails', '2.13.1'
+  # gem 'guard-rspec', require: false
 end
 
 group :test do
